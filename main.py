@@ -74,7 +74,7 @@ def predict_gui(Gender: str,
     return {"status":pred}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0",port=8089)    
+    uvicorn.run(app, host="0.0.0.0",port=8005)    
 
 # This is an comment to test the changes in Jenkins
 # This is to check if the Builds are working fine 
